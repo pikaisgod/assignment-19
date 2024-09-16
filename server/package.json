@@ -1,0 +1,31 @@
+{
+    "name": "jate-client",
+    "version": "1.0.0",
+    "description": "Frontend for JATE (Just Another Text Editor)",
+    "main": "index.js",
+    "scripts": {
+      "start": "webpack serve --mode development --open",
+      "build": "webpack --mode production"
+    },
+    "dependencies": {
+      "idb": "^6.x.x"
+    },
+    "devDependencies": {
+      "webpack": "^5.x.x",
+      "webpack-cli": "^4.x.x",
+      "webpack-dev-server": "^4.x.x",
+      "babel-loader": "^8.x.x",
+      "@babel/core": "^7.x.x",
+      "@babel/preset-env": "^7.x.x",
+      "html-webpack-plugin": "^5.x.x",
+      "css-loader": "^6.x.x",
+      "style-loader": "^3.x.x",
+      "workbox-webpack-plugin": "^6.x.x"
+    },
+    "browserslist": [
+      "defaults"
+    ],
+    "author": "",
+    "license": "ISC"
+  }
+  
